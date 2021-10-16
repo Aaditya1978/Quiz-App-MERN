@@ -53,6 +53,7 @@ function History() {
     <div>
       <h1 className="heading">The Programmer's Quiz 👩‍💻</h1>
       <div className="data">
+        <h2 className="heading2">Hers's Your Quiz History</h2>
         {data.map((item) => (
           <div className="data-item" key={item._id}>
             <h3 className="date">

@@ -11,6 +11,14 @@ body{
     text-align: center;
 }
 
+.heading2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #000;
+    text-align: center;
+}
+
 .data{
     margin-top: 2%;
     width: 600px;
