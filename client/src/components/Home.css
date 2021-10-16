@@ -1,0 +1,121 @@
+body{
+    background: rgb(32,32,130);
+    background: linear-gradient(90deg, rgba(32,32,130,0.9724264705882353) 0%, rgba(0,212,255,1) 100%);
+}
+
+.loader{
+    /* aling center */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    color: #000;
+    text-align: center;
+}
+
+.heading2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #000;
+    text-align: center;
+}
+
+.form{
+    margin-top: 2%;
+    width: 600px;
+    /* align to center horizontally */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    /* box shadow */
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    margin-bottom: 1%;
+}
+
+.form label{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.form select{
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.form button{
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgb(32,32,130);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.form .error{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    color: rgb(238, 56, 56);
+    text-align: left;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* two buttons logout and history aling side by side */
+.btns{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.logout{
+    width: 200px;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:rgb(32,32,130);
+    color: #fff;
+    border: 1px solid #000;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.history{
+    width: 200px;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:rgb(32,32,130);
+    color: #fff;
+    border: 1px solid #000;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+}

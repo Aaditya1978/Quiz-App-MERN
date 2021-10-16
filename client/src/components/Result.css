@@ -1,0 +1,50 @@
+body{
+    background: rgb(32,32,130);
+    background: linear-gradient(90deg, rgba(32,32,130,0.9724264705882353) 0%, rgba(0,212,255,1) 100%);
+}
+
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    color: #000;
+    text-align: center;
+}
+
+.score{
+    margin-top: 2%;
+    width: 600px;
+    /* align to center horizontally */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    /* box shadow */
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    margin-bottom: 2%;
+}
+
+.score p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #000;
+    text-align: center;
+}
+
+.score button{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: rgb(32,32,130);
+    border: 1px solid rgb(51, 38, 168);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
